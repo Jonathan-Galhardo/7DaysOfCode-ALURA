@@ -12,13 +12,25 @@ if (area == 'Front' || area == 'front' || area == 'Frontend' || area == 'Front-e
     // resposta React 
     if (frameWork == 'React' || frameWork == 'react'){
         let react = prompt(`Ótimo ${nome} O React é amplamente usado no mercado. Empresas como Facebook, Walmart, Instagram, Artsy, Coinbase Pro, Airbnb, Tesla, Discord utilizam essa tecnologia. Após Estudar React ${nome}, você quer continuar 
-        se especializando no Front-end ou deseja ser FullStack?`)}
+        se especializando no Front-end ou deseja ser FullStack?`)
+        if (react == 'Front' || react == 'front' || react == 'Frontend' || react == 'Front-end' || react == 'front-end' || react == 'sim' || react == 's' ){
+           let estudar = prompt(`${nome}, qual outra tecnologia você quer aprender depois de estudar React?`)
+        } else {
+            console.log(' erro ')
+        }
+    }
     //resposta Vue
     if (frameWork == 'vue' || frameWork == 'Vue'){
         let vue = prompt(`Ótimo ${nome} O Vue.js é um framework Javascript open source bastante conhecido pela sua reatividade. Usado para construir SPA (Single Page Applications) e interfaces de usuário, tornou-se uma excelente opção, 
         também, pelo fato de ter componentes reutilizáveis e proporcionar o desenvolvimento ágil. Após Estudar Vue ${nome}, você quer continuar 
-        se especializando no Front-end ou deseja ser FullStack?`)}
-}
+        se especializando no Front-end ou deseja ser FullStack?`)
+        if (vue == 'Front' || vue == 'front' || vue == 'Frontend' || vue == 'Front-end' || vue == 'front-end' || vue == 'sim' || vue == 's' ){
+            console.log('continuar no Front')
+        } else {
+            console.log('erro')
+        }
+    }
+  
     
  // continuaar no front
  
@@ -32,5 +44,7 @@ if (area == 'Back' || area == 'Back-end' || area == 'backend' || area == 'Frobac
     if (backEnd == 'Java' || backEnd == 'java'){
         let vue = prompt(`Ótimo ${nome} O Java é. Após Estudar Vue ${nome}, você quer continuar se especializando no Front-end ou deseja ser FullStack?`)}
 }
+}
+
+
         
- 
